@@ -6,12 +6,19 @@
   <title>Social Proof Section</title>
 
   <script src="https://cdn.tailwindcss.com"></script>
-</head>
+  </head>
 
 <body class="bg-[#f7f2f7] flex items-center justify-center min-h-screen px-10">
 
   <section class="max-w-6xl w-full bg-[#fffdf8] p-16 rounded-md relative overflow-hidden">
-
+   <!--top left background image-->
+    <div class="absolute top-0 left-0 w-82 h-82  rounded-br-full">
+      <img src="img/bg-pattern-top-desktop.svg" alt="">
+    </div>
+   <!--bottom right background image-->
+   <div class="absolute bottom-0 right-0 w-102 h-102 rounded-tl-full ">
+    <img src="img/bg-pattern-bottom-desktop.svg" alt="">
+   </div>
     <!-- Top Content -->
     <div class="flex justify-between items-start gap-16">
 
@@ -85,9 +92,7 @@
       <div class="bg-[#502050] text-white p-8 rounded-xl w-[350px] h-[230px]">
 
         <div class="flex items-center gap-4">
-          <img
-            src="image/image-colton.jpg"
-            alt="">
+          <img src="img/image-colton.jpg" alt=""  class="w-12 h-12 rounded-full">
 
           <div>
             <h3 class="font-bold">Colton Smith</h3>
@@ -106,7 +111,7 @@
       <div class="bg-[#502050] text-white p-8 rounded-xl w-[350px] h-[230px] mt-6">
 
         <div class="flex items-center gap-4">
-          <img src="img/image-irene.jpg" alt="">
+          <img src="img/image-irene.jpg" alt=""  class="w-12 h-12 rounded-full">
 
           <div>
             <h3 class="font-bold">Irene Roberts</h3>
@@ -124,7 +129,7 @@
       <div class="bg-[#502050] text-white p-8 rounded-xl w-[350px] h-[230px] mt-12">
 
         <div class="flex items-center gap-4">
-          <img src="img/image-anne.jpg" alt="">
+          <img src="img/image-anne.jpg" alt=""  class="w-12 h-12 rounded-full">
           <div>
             <h3 class="font-bold">Anne Wallace</h3>
             <p class="text-pink-300 text-sm">Verified Buyer</p>
