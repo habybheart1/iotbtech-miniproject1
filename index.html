@@ -3,73 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            'dark-cyan': 'hsl(158, 36%, 37%)',
-            'very-dark-blue': 'hsl(212, 21%, 14%)',
-            'dark-grayish-blue': 'hsl(228, 12%, 48%)',
-            'cream': 'hsl(30, 38%, 92%)',
-          },
-          fontFamily: {
-            'montserrat': ['Montserrat', 'sans-serif'],
-            'fraunces': ['Fraunces', 'serif'],
-          }
-        }
-      }
-    }
-  </script>
-  <title>Frontend Mentor | Product preview card component</title>
+  <title>IOTBTECH-Miniproject1</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-
-<body class="bg-[#f2ebe3] flex items-center justify-center p-4 min-h-screen">
-  <main class="bg-white rounded-xl flex flex-col overflow-hidden max-w-[343px] md:flex-row md:max-w-[600px]">
-    
-
-    <picture class="md:w-1/2">
-      <source media="(min-width: 768px)" srcset="./images/image-product-desktop.jpg">
-      <img class="w-full h-full object-cover" src="./images/image-product-mobile.jpg" alt="Perfume bottle">
-    </picture>
-
-
-    <div class="p-6 md:p-8 md:w-1/2">
-      <span class="font-montserrat text-dark-grayish-blue tracking-[0.3em] text-xs uppercase block mb-3 md:mb-5">
-        Perfume
-      </span>
-
-      <h1 class="font-fraunces text-very-dark-blue text-3xl leading-none mb-4 md:mb-6">
-        Gabrielle Essence Eau De Parfum
-      </h1>
-
-      <p class="font-montserrat text-dark-grayish-blue text-sm leading-relaxed mb-6 md:mb-7">
-        A floral, solar and voluptuous interpretation composed by Olivier Polge,
-        Perfumer-Creator for the House of CHANEL.
-      </p>
-
-      <div class="flex items-center gap-5 mb-5 md:mb-8">
-        <span class="font-fraunces text-dark-cyan text-3xl font-bold">
-          $149.99
-        </span>
-        <span class="font-montserrat text-dark-grayish-blue line-through text-sm">
-          $169.99
-        </span>
-      </div>
-
-      <button class="w-full bg-dark-cyan hover:bg-[#1a4031] text-white flex items-center justify-center gap-3 py-4 rounded-lg transition-colors duration-200">
-        <img src="./images/icon-cart.svg" alt="">
-        <span class="font-montserrat font-bold text-sm">Add to Cart</span>
-      </button>
-    </div>
-  </main>
+<body>
+  
 </body>
 </html>
-
-
-
