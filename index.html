@@ -3,10 +3,66 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>IOTBTECH-Miniproject1</title>
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link href="./dist/output.css" rel="stylesheet">
+  <title>Frontend Mentor | Fylo data storage component</title>
 </head>
-<body>
-  
+  <body class="min-h-screen bg-neutral-blue-950 font-raleway text-neutral-blue-200 text-body">
+
+  <div class="min-h-screen flex items-center justify-center px-6 py-10" style="background-image: url('./images/bg-desktop.png'); background-size: contain; background-position: bottom; background-repeat: no-repeat;">
+    <div class="grid w-full max-w-6xl gap-6 items-start lg:grid-cols-[minmax(320px,28rem)_minmax(420px,1fr)]">
+
+      <!-- Left Card -->
+      <section class="relative overflow-hidden rounded-tr-[100px] rounded-tl-none rounded-bl-none bg-[#1a2b67] h-full w-full p-12 md:p-15">
+        <img src="./images/logo.svg" alt="Fylo" class="mb-12 w-50">
+        <div class="grid grid-cols-3 gap-5">
+          <div class="flex h-16 w-16 items-center justify-center rounded-[24px] bg-neutral-blue-950">
+            <img src="./images/icon-document.svg" alt="Document">
+          </div>
+          <div class="flex h-16 w-16 items-center justify-center rounded-[24px] bg-neutral-blue-950">
+            <img src="./images/icon-folder.svg" alt="Folder">
+          </div>
+          <div class="flex h-16 w-16 items-center justify-center rounded-[24px] bg-neutral-blue-950">
+            <img src="./images/icon-upload.svg" alt="Upload">
+          </div>
+        </div>
+      </section>
+
+      <!-- Right Card -->
+      <section class="relative rounded-[32px] bg-[#1a2b67] p-5 md:p-10 lg:p-40">
+        <div class="absolute -top-5 right-6 z-10 rounded-[28px] bg-white px-6 py-4 shadow-[0_10px_30px_rgba(0,0,0,0.16)]">
+          <div class="flex items-baseline gap-3">
+            <span class="text-5xl font-bold text-neutral-blue-950">185</span>
+            <span class="text-xs font-bold uppercase tracking-[0.22em] text-neutral-grayish-blue">GB LEFT</span>
+          </div>
+          <div class="absolute -bottom-2 right-5 h-4 w-4 rotate-45 bg-white"></div>
+        </div>
+
+        <p class="text-neutral-blue-200 mb-6 text-sm md:text-base">
+          You've used <span class="font-bold text-white text-2xl md:text-4xl">815 GB</span> of your storage
+        </p>
+
+        <div class="bg-neutral-blue-950 rounded-full h-4 p-1 mb-4">
+          <div class="relative h-full w-[81.5%] rounded-full bg-gradient-to-r from-primary-gradient-from to-primary-gradient-to">
+            <div class="absolute right-0 top-1/2 h-4 w-4 -translate-y-1/2 translate-x-1/2 rounded-full bg-white shadow-lg"></div>
+          </div>
+        </div>
+
+        <div class="flex justify-between text-neutral-blue-200 text-xs md:text-sm">
+          <span>0 GB</span>
+          <span>1000 GB</span>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <footer class="attribution fixed bottom-4 left-0 right-0 text-neutral-blue-200 text-xs text-center">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" class="text-primary-gradient-from hover:text-primary-gradient-to transition-colors">Frontend Mentor</a>. 
+    Coded by <a href="#" class="text-primary-gradient-from hover:text-primary-gradient-to transition-colors">MubDev</a>.
+  </footer>
+
 </body>
 </html>
