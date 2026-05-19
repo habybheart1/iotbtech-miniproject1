@@ -41,6 +41,11 @@ Mobile: AbdulAzeez Mueez, ,
       task: "Project coordination and repo management",
     },
     {
+      name: "Ibrahim Ibrahim",
+      role: "Desktop & Mobile View",
+      task: "landing page and Repo coordination.",
+    },
+    {
       name: "Abdulmajid Isah",
       role: "Desktop View",
       task: "Product launch landing page",
@@ -52,7 +57,7 @@ Mobile: AbdulAzeez Mueez, ,
     },
     {
       name: "Olayemi Motin",
-      role: "Desktop View",
+      role: "Mobile View",
       task: "Product review",
     },
     {
@@ -86,9 +91,9 @@ Mobile: AbdulAzeez Mueez, ,
       task: "Fylo data storage component",
     },
     {
-      name: "Ibrahim Ibrahim",
-      role: "Desktop & Mobile View",
-      task: "landing page and Repo coordination.",
+      name: "Ashiru Mubarokah",
+      role: "Desktop View",
+      task: "Product Card.",
     },
   ];
 
