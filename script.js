@@ -36,7 +36,7 @@ Mobile: AbdulAzeez Mueez, ,
   */
   const allFellows = [
     {
-      name: "Abibat Akintola",
+      name: "Abibat Akintobi",
       role: "Project Lead",
       task: "Project coordination and repo management",
     },
@@ -88,7 +88,7 @@ Mobile: AbdulAzeez Mueez, ,
     {
       name: "Ibrahim Ibrahim",
       role: "Desktop & Mobile View",
-      task: "Mini project landing page.",
+      task: "landing page and Repo coordination.",
     },
   ];
 
